@@ -1,9 +1,11 @@
 import React from "react";
 import "./Hero.css";
-import groupImage from './assets/iphone0.png';
-import iPhone1 from "./assets/iPhone1.png";
-import iPhone2 from "./assets/iPhone2.png";
-import iPhone3 from "./assets/iphone3.png";
+import groupImage from './iphone0.png';
+// import iPhone1 from "/assets/iPhone1.png";
+import iPhone2 from "./iPhone2.png";
+import iPhone3 from "./iphone3.png";
+// import iPhone3 from "/assets/iphone3.png";
+import iPhone1 from "./iPhone1.png";
 // import logos from "./assets/motionarteffect-img8.png";
 
 const Hero = () => {

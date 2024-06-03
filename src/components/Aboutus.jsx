@@ -11,7 +11,7 @@ const About = () => {
       <div className="about-container">
         <div className="left-container">
           <img className="rear-img" src="src/assets/Aboutimg.png" alt="User's testimonial background" />
-          <img className="bg-img" src="src/assets/bgcolordrop.png" alt="Color drop background" />
+          {/* <img className="bg-img" src="src/assets/bgcolordrop.png" alt="Color drop background" /> */}
         </div>
         <div className="right-container">
           <h2>

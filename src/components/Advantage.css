@@ -1,0 +1,68 @@
+.image-container {
+  position: relative;
+  width: 100%;
+  height: 100vh; /* Adjust as needed */
+  overflow: hidden;
+}
+
+.background-image {
+  position: absolute;
+  width: 100%;
+  height: 50%;
+  background-size: cover;
+  background-position: center;
+  opacity: 0.5; /* Adjust opacity if needed */
+}
+
+.background-image-1 {
+  top: 0;
+}
+
+.background-image-2 {
+  bottom: 0;
+}
+
+.phone-image {
+  position: absolute;
+  top: 50%;
+  left: 60%;
+  transform: translate(-50%, -50%);
+  width: 70%;
+  /* height: auto; */
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: fit-content;
+  top: 0;
+  padding: 15px;
+}
+
+.left-container {
+  /* Add styles if needed */
+}
+
+.header-with-icon {
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  margin-right: 10px;
+  font-size: 1.5em;
+  color: orangered;
+}
+
+.right-container {
+  top: 0;
+  width: 50%;
+  margin-top: -10%;
+  padding: 15px;
+}
+
+.right-container p {
+  padding: 20px;
+  text-align: left;
+}

@@ -1,0 +1,87 @@
+body {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: 'Maven' , sans-serif;
+}
+
+.nav-container {
+  width: 80%;
+  margin-left: 10%;
+  background-color: #fff;
+  color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 25px;
+  z-index: 1000;
+  top: 0;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Adding a shadow */
+  border-radius: 8px;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+}
+
+.nav-logo {
+  display: flex;
+  align-items: center;
+  color: black;
+  font-size: 30px;
+  font-weight: bold;
+  margin-right: 60px;
+}
+
+.nav-logo img {
+  margin-right: 10px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.menu-list {
+  display: flex;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 20px;
+  position: relative;
+}
+
+.menu-item {
+  margin-right: 55px;
+  cursor: pointer;
+}
+
+.menu-item.active {
+  color: red;
+  font-weight: bold;
+  /* font-size: px; */
+}
+
+.menu-item:last-child {
+  margin-right: 0;
+}
+
+.btn {
+  background-color: black;
+  position: absolute;
+  color: #fff;
+  padding: 16px;
+  margin-left: 60%;
+  text-align: center;
+  font-style: normal;
+  border-radius: 4px;
+  width: 10%;
+  cursor: pointer;
+  transition: transform 0.3s ease, all 0.3s ease;
+}
+
+.btn:hover {
+  transform: scale(1.025);
+  background-color: rgb(255, 89, 0);
+}

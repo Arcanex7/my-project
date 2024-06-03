@@ -1,0 +1,158 @@
+.hero-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    position: relative;
+  }
+  
+  .left-hero {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    margin-left: 10%;
+    margin-top: 10%;
+  }
+  
+  .left-hero h1 {
+    text-align: left;
+    font-size: 55px;
+    font-weight: bold;
+  }
+  
+  .left-hero p {
+    text-align: left;
+    color: rgb(156, 160, 163);
+    padding: 8px;
+    margin: 8px;
+  }
+  
+  .left-hero img {
+    width: 100%;
+    max-width: 400px;
+  }
+  
+  .btn-hero {
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .btn-hero button {
+    background-color: #000000;
+    color: #fff;
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .btn-hero span {
+    color: black;
+    margin-left: 20px;
+    cursor: pointer;
+  }
+  
+  .right-hero {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+  }
+  
+  .background-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .mobile-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .mobile-image {
+    position: absolute;
+    max-width: 450px;
+  }
+  
+  .mobile-image-1 {
+    top: 4.5%;
+    left: 12%;
+  }
+  
+  .mobile-image-2 {
+    top: 2.5%;
+    left: 5%;
+  }
+  
+  .mobile-image-3 {
+    top: 2.5%;
+    left: 15%;
+    z-index: -1;
+  }
+  
+  .bg-img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('./assets/infinity.png'); 
+    background-size: cover;
+    z-index: -2;
+  }
+  
+  /* .color-splash {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url('./assets/color-splash-image.png'); /* Adjust the path */
+  
+  @media (max-width: 768px) {
+    .hero-container {
+      flex-direction: column;
+    }
+  
+    .left-hero,
+    .right-hero {
+      width: 100%;
+      margin-left: 0;
+      margin-top: 5%;
+    }
+  
+    .left-hero h1 {
+      font-size: 35px;
+    }
+  
+    .mobile-image {
+      max-width: 150px;
+    }
+  
+    .mobile-image-1 {
+      top: 10%;
+      left: 10%;
+    }
+  
+    .mobile-image-2 {
+      top: 30%;
+      left: 30%;
+    }
+  
+    .mobile-image-3 {
+      top: 50%;
+      left: 50%;
+    }
+  }
+  
